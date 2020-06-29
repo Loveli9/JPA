@@ -13,6 +13,6 @@ import javax.persistence.Table;
 @EqualsAndHashCode
 @JsonIgnoreProperties(ignoreUnknown = true)
 //@Entity
-//@Table
-public class UserVo extends User {
+//@Table(name = "student")
+public class UserVO extends User {
 }
